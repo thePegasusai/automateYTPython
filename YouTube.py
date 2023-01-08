@@ -1,3 +1,5 @@
+# To automate uploads to a YouTube channel, you can use the YouTube API and authenticate with OAuth 2.0.
+
 import google.oauth2.credentials
 import googleapiclient.discovery
 
@@ -26,3 +28,5 @@ response = youtube.videos().insert(
 
 # Print the response
 print(response)
+
+# Note that this is just a basic example and there are many other parameters and options that you can use when uploading videos to YouTube. For more information, you can refer to the documentation for the YouTube API and Boto3.
